@@ -1,0 +1,76 @@
+.container {
+    padding: 0 1rem;
+  }
+  
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px; 
+    margin-top: 3rem;
+  }
+  
+  .card {
+    margin: 1rem;
+    flex-basis: 20%; 
+    padding: 1.5rem;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease; 
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    color: #8d0f0f;
+    border-color: #8d0f0f;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+.header {
+    background-color: #8d0f0f;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
